@@ -1,0 +1,28 @@
+.banner-container {
+  background-image: url(https://bshopen.themeposh.net/public/media/16112021165238-trending-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 3rem;
+  .content {
+    text-align: center;
+    h1 {
+      color: orange;
+    }
+    button {
+      padding: 0.8rem 1.3rem;
+      border: none;
+      background-color: #c62f2f;
+      transition: 0.5s;
+      color: white;
+      &:hover {
+        background-color: white;
+        color: black;
+        outline: 1px solid #c62f2f;
+      }
+    }
+  }
+}

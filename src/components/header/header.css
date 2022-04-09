@@ -1,0 +1,138 @@
+.top-header {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 6.5rem;
+}
+
+.top-header .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-header .left-side li {
+  list-style: none;
+  padding: 7px;
+}
+
+.top-header .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-header .right-side li {
+  list-style: none;
+  padding: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-header {
+    padding: 0;
+  }
+  .top-header .left-side {
+    display: none;
+  }
+  .top-header .right-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+  }
+  .top-header .right-side li {
+    list-style: none;
+    padding: 10px;
+  }
+}
+
+.main-header {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.8rem 0;
+  width: 100%;
+}
+
+.main-header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header .logo img {
+  height: 45px;
+}
+
+.main-header .search-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header .search-area form {
+  width: 100%;
+}
+
+.main-header .search-area form input {
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: 2px solid #c62f2f;
+  width: 80%;
+  padding: 0.8rem;
+}
+
+.main-header .search-area form button {
+  border-radius: 0 10px 10px 0;
+  border: none;
+  outline: 2px solid #c62f2f;
+  width: 20%;
+  padding: 0.8rem;
+  background-color: #c62f2f;
+  color: white;
+}
+
+.main-header .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header .icon span {
+  background-color: #dcdcdc;
+  padding: 3px;
+  border-radius: 50%;
+  color: black;
+}
+
+.main-header .icon span:hover {
+  color: #c62f2f;
+}
+/*# sourceMappingURL=header.css.map */
